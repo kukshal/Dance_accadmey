@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');   
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 10px;
+    font-size: 0.00001;
+}
+
+
+#logo img{
+    height: 40px;
+    width: 30px;
+}
+
+#navbar{
+    background-color:rgb(0, 0, 0);
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    font-size: 1.3rem;
+}
+
+
+#introsection{
+    background: url('https://cdn.pixabay.com/photo/2020/03/06/11/14/black-4906807_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+
+
+#introsection div.small{
+    font-size: 1.9rem;
+    color: red;
+    font-style: italic;
+}
+
+
+
+#missionsection{
+    color: rgb(0, 0, 0);
+    padding: 18px;
+    background-color: white;
+    height: 300px;
+}
+
+
+#missionsection h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+
+
+.card{
+    display: inline-block;
+     border: 2px solid black;
+     border-radius: 10px;
+     width: 30%;
+     margin: 20px;
+    height: 200px;
+}
+
+
+.card h3{
+    color: red;
+    text-align: center;
+    margin: 12px;
+}
+
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-img img{
+    height: 100px;
+    width: 120px;
+    padding: 0px 0px 0px 20px;
+}
+
+
+#sponsorssection{
+    height: 300px;
+    background-color: rgb(201, 197, 180);
+}
+
+#sponsors{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#sponsors img{
+    height: 150px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#sponsorssection h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+#footer{
+    display: flex;
+    height: 60px;
+    background-color: rgb(1, 1, 1);
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
